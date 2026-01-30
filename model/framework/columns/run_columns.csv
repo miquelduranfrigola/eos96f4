@@ -1,1 +1,2 @@
 name,type,direction,description
+molecular_complexity,float,high,Score representing the predicted molecular complexity

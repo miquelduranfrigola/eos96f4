@@ -1,1 +1,7 @@
 smiles
+C[C@@]3(OO4)CC[C@]5([H])[C@@]4([C@@]([C@@H](C)C(O6)=O)([H])CC[C@H]5C)[C@@]6([H])O3
+C=C[C@@H]1[C@H](C[C@]2([H])NCCC3=C2NC4=C3C=CC=C4)C(C(OC)=O)=CO[C@H]1O[C@]([H])([C@](O)5[H])O[C@]([H])(CO)[C@@]([H])(O)[C@@]5(O)[H]
+COC1=CC=C(N=CC=C2[C@H](O)[C@@H]3C[C@H]4CC[N@@]3C[C@H]4C=C)C2=C1
+O=C1N2CC3=CC4=CC=CC=C4N=C3C2=CC5=C1COC([C@@]5(CC)O)=O
+CCC1=CC2CC(C13)(C(OC)=O)C4=C(CCN3C2)C5=CC=CC=C5N4
+[H][C@@]12C[C@@]3([H])[C@]45[C@@]([C@]1([H])[C@@]6([H])OCC=C2CN3CC5)([H])N(C(C6)=O)C7=C4C=CC=C7

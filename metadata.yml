@@ -10,36 +10,26 @@ Description: This model uses a learning-to-rank machine learning framework to qu
   and it was applied to study trends in synthetic strategies, among other analyses.
 Deployment:
 - Local
-- Online
-Source: Local, Online
-Source Type: Internal, Replicated, External
-Task: Annotation, Representation, Sampling
-Subtask: Property calculation or prediction, Activity prediction, Featurization, Projection,
-  Similarity search, Generation
+Source: Local
+Source Type: External
+Task: Annotation
+Subtask: Property calculation or prediction
 Input:
 - Compound
 Input Dimension: 1
 Output:
-- Value
 - Score
-- Compound
-- Probability
-- Experimental value
-- '...'
 Output Dimension: 1
-Output Consistency: Fixed, Variable
-Interpretation: 'The output of this template model should be interpreted like this.
-
-  '
+Output Consistency: Fixed
+Interpretation: The output score represents the predicted molecular complexity
+  of the input compound, with higher scores indicating greater complexity.
 Tag:
 - Chemical synthesis
 Biomedical Area:
-- Biomedical Area 1
-- Biomedical Area 2
+- Any
 Target Organism:
-- Target Organism 1
-- Target Organism 2
-Publication Type: Peer reviewed, Preprint, Other
+- Any
+Publication Type: Peer reviewed
 Publication Year: 2025
 Publication: https://doi.org/10.1039/D4SC07320G
 Source Code: https://github.com/Ananikov-Lab/digitizing_molecular_complexity
